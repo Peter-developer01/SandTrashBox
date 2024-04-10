@@ -1,0 +1,32 @@
+span.strikethrough {
+	text-decoration: line-through;
+}
+
+.letterbox {
+	text-align: center;
+	height: 180px;
+	border-top: 10px solid #b4b4ff;
+	border-bottom: 10px solid red;
+}
+
+.letterbox .letter {
+	display: inline-block;
+	white-space: nowrap;
+	cursor: none;
+	transition: all 0.1s ease-in-out;
+}
+
+.animate {
+	position: relative;
+	top: 0;
+	animation: animate 0.5s ease-in-out infinite;
+}
+
+/* @keyframes animate { */
+	/* 0% { */
+		/* top: 0; */
+	/* } */
+	/* 100% { */
+		/* top: 100px; */
+	/* } */
+/* } */
