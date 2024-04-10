@@ -23,11 +23,11 @@
 		console.log(speed)
 
 		window.addEventListener("keydown", (event) => {
-			if (event.key === " " || event.key === letter.innerText) {
-				console.log(event.key)
+			if (event.key === " " || event.key.toUpperCase() === letter.innerText) {
 				done = false;
 				start = undefined;
 				letter.style.transform = "translateY(0)";
+				new Audio(`audio/lift.mp3`).play();
 			}
 		})
 

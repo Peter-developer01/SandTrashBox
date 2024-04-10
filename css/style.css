@@ -13,7 +13,6 @@ span.strikethrough {
 	display: inline-block;
 	white-space: nowrap;
 	cursor: none;
-	transition: all 0.1s ease-in-out;
 }
 
 .animate {
