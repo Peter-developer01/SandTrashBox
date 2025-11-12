@@ -1,0 +1,7 @@
+body:has(.turn-green:checked) {
+	background-color: green;
+}
+
+body:has(.turn-blue:checked) {
+	background-color: blue;
+}
