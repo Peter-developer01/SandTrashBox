@@ -1,0 +1,18 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    font-family: Impact;
+    color: greenyellow;
+    position: fixed;
+    /* x and y set via JS */
+}
